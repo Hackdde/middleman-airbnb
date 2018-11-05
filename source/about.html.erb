@@ -1,24 +1,17 @@
----
-title: Le Wagon - Middleman - About
----
-
 <div id="about">
   <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
+    <h1>This template is built with <i class="fa fa-heart"></i> by</h1>
     <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fab fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
+      <li>
+        <img src="https://media.licdn.com/dms/image/C5603AQFvBzWnmveE6g/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=oiz8VEr8z-s4oIxhpSVbGrno_6taBHN_E53Ci7jioUQ" class="img-circle" alt="Pierre" />
+        <h2>Pierre Renaudin</h2>
+        <p><a href="http://github.com/renaudinpierre"><i class="fab fa-github"></i></i> PRenaudin</a></p>
+      </li>
+      <li>
+        <img src="https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/nbyjyfamrktsr9cszyac.jpg" class="img-circle" alt="Andde" />
+        <h2>Andde Indaburu</h2>
+        <p><a href="http://github.com/hackdde"><i class="fab fa-github"></i></i> Hackdde </a></p>
+      </li>
     </ul>
   </div>
 </div>
