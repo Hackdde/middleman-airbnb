@@ -7,18 +7,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.banner h1 {
+  h1 {
   font-size: 50px;
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-}
-.banner p {
+  }
+  p {
   font-size: 25px;
   font-weight: lighter;
   color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
+  }
 }
 
 
@@ -55,18 +55,19 @@
   text-transform: uppercase;
 }
 .card-description {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.card-description h2 {
-  font-size: 24px;
-}
-.card-description p {
-  font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
-}
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    h2 {
+    font-size: 24px;
+    }
+    p {
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: lighter;
+    }
+  }
+
 .card-link {
   position: absolute;
   top: 0;
@@ -76,7 +77,7 @@
   z-index: 2;
   background: black;
   opacity: 0;
-}
-.card-link:hover {
-  opacity: 0.1;
+    &:hover {
+    opacity: 0.1;
+  }
 }
