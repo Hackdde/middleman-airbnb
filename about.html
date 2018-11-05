@@ -6,31 +6,80 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-d8451641.css" rel="stylesheet" />
+    <title></title>
+    <link href="stylesheets/application-478b98d3.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
+    <div class="navbar-wagon">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+    <a href="../about.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
     <div id="about">
   <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
+    <h1>This template is built with <i class="fa fa-heart"></i> by</h1>
     <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/ssaunier" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="img-circle" alt="Ssaunier" />
-</a>          <h2>Sébastien Saunier</h2>
-          <p>
-<a href="https://github.com/ssaunier" target="_blank">              <i class="fab fa-github"></i> ssaunier
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/Papillard" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/Papillard" class="img-circle" alt="Papillard" />
-</a>          <h2>Boris Paillard</h2>
-          <p>
-<a href="https://github.com/Papillard" target="_blank">              <i class="fab fa-github"></i> Papillard
-</a>          </p>
-        </li>
+      <li>
+        <img src="https://media.licdn.com/dms/image/C5603AQFvBzWnmveE6g/profile-displayphoto-shrink_200_200/0?e=1547078400&v=beta&t=oiz8VEr8z-s4oIxhpSVbGrno_6taBHN_E53Ci7jioUQ" class="img-circle" alt="Pierre" />
+        <h2>Pierre Renaudin</h2>
+        <p><a href="http://github.com/renaudinpierre"><i class="fab fa-github"></i></i> PRenaudin</a></p>
+      </li>
+      <li>
+        <img src="https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/nbyjyfamrktsr9cszyac.jpg" class="img-circle" alt="Andde" />
+        <h2>Andde Indaburu</h2>
+        <p><a href="http://github.com/hackdde"><i class="fab fa-github"></i></i> Hackdde </a></p>
+      </li>
     </ul>
+  </div>
+</div>
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
   </div>
 </div>
 
